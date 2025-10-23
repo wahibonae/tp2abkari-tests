@@ -9,6 +9,7 @@ public class Test1 {
                 .builder()
                 .apiKey(cle)
                 .modelName("gemini-2.5-flash")
+                .temperature(0.6)
                 .build();
 
         String response = model.chat("Hello there!!");
